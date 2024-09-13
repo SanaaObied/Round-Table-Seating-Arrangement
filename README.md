@@ -1,4 +1,4 @@
-                                                                           Overview: Round Table Seating Arrangement Problem
+                                                    Overview: Round Table Seating Arrangement Problem
 In this problem, a group of individuals must be seated around a round table to minimize conflict based on a provided matrix of dislike percentages between each pair. The goal is to find the optimal seating arrangement using Uniform Cost Search (UCS), Greedy Search, and A* Search algorithms.
 
 The problem incorporates a Non-Linear Dislike Cost function, which penalizes high levels of conflict between neighbors more heavily. The search algorithms must ensure that each individual is seated next to those with whom they have the least amount of discomfort, forming a circular arrangement where the first and last individuals are also neighbors.
